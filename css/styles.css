@@ -11314,3 +11314,25 @@ body {
   color: black;
   text-shadow: 0 0 4px #ffffff;
 }
+
+@media screen and (max-width: 512px) {
+  .desc {
+    display: none;
+  }
+
+  .text .fancy {
+    font-size: medium;
+  }
+}
+
+.icons {
+  font-size: large;
+}
+
+.about-section .icons {
+  color: #fff;
+}
+
+.icon-text {
+  font-size: small;
+}
